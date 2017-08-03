@@ -7,10 +7,10 @@ function setup() {
   v= createCapture({
     audio: false,
     video: {
-      facingMode: "environment"
-      // {
-      //   exact: "environment"
-      // }
+      facingMode: 
+       {
+         exact: "environment"
+       }
     }
   });
   v.style('border','1px solid black');
