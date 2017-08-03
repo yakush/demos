@@ -7,14 +7,11 @@ function setup() {
   v= createCapture({
     audio: false,
     video: {
-      facingMode: 
-       {
-         exact: "environment"
-       }
+      facingMode: "environment"
     }
   });
   v.style('border','1px solid black');
 
   v.id('vid');
-  v.size(document.body.clientWidth,document.body.clientHeight);
+  v.size(document.body.clientWidth,document.body.scrollHeight);
 }
