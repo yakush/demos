@@ -15,5 +15,6 @@ function setup() {
   });
   v.style('border','1px solid black');
 
-  v.id('vid');  
+  v.id('vid');
+  v.size(document.body.clientWidth,document.body.clientHeight);
 }
